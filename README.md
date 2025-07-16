@@ -1,3 +1,3 @@
 ## 라이브러리
 
-- [chart.js](https://www.chartjs.org/)
+- [Chart.js](https://www.chartjs.org/)
