@@ -15,6 +15,17 @@ import { mockData } from "./data/mockData.js";
 
   new Chart(document.getElementById("chart"), {
     type: "bar",
+    options: {
+      animation: true,
+      plugins: {
+        legend: {
+          display: false,
+        },
+        tooltip: {
+          enabled: true,
+        },
+      },
+    },
     data: {
       labels: data.map((row) => row.year),
       datasets: [
